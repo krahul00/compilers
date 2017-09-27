@@ -1,0 +1,24 @@
+#BlueJ package file
+objectbench.height=76
+objectbench.width=668
+package.editor.height=400
+package.editor.width=560
+package.editor.x=546
+package.editor.y=22
+package.numDependencies=0
+package.numTargets=2
+package.showExtends=true
+package.showUses=true
+project.charset=UTF-8
+target1.height=62
+target1.name=parser
+target1.type=PackageTarget
+target1.width=80
+target1.x=250
+target1.y=180
+target2.height=62
+target2.name=scanner
+target2.type=PackageTarget
+target2.width=80
+target2.x=130
+target2.y=180

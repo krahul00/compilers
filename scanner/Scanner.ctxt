@@ -1,0 +1,44 @@
+#BlueJ class context
+comment0.params=inStream
+comment0.target=Scanner(java.io.InputStream)
+comment0.text=\n\ Scanner\ constructor\ for\ construction\ of\ a\ scanner\ that\ \n\ uses\ an\ InputStream\ object\ for\ input,\ which\ represents\ \n\ an\ input\ of\ info\ bytes.\n\ Usage\:\ Scanner\ lex\ \=\ new\ Scanner(inStream);\ \n\ FileInputStream\ inStream\ \=\ new\ FileInputStream\ \n\ (new\ File(<file\ name>);\n\ @param\ inStream\ the\ input\ stream\ to\ use\n
+comment1.params=inString
+comment1.target=Scanner(java.lang.String)
+comment1.text=\n\ Scanner\ constructor\ for\ constructing\ a\ scanner\ that\ \n\ scans\ a\ given\ input\ string.\ \ It\ sets\ the\ end-of-file\ flag\ \n\ an\ then\ reads\ the\ first\ character\ of\ the\ input\ string\ into\ \n\ the\ instance\ field\ currentChar.\n\ Usage\:\ Scanner\ lex\ \=\ new\ Scanner(input_string);\n\ @param\ inString\ the\ string\ to\ scan\n
+comment10.params=
+comment10.target=java.lang.String\ scanIdentifier()
+comment10.text=\n\ This\ method\ returns\ a\ String\ that\ represents\ a\ word\ \n\ such\ as\ Bob\ or\ BOB123.\ \n\ It\ uses\ a\ while\ statement\ to\ continue\ adding\ letters\ to\ the\ String.\n\ When\ it\ is\ done\ adding\ a\ character,\ it\ eats\ it.\ When\ it\ encounters\ a\ \n\ character\ that\ is\ not\ a\ letter\ or\ digit,\ it\ returns\ the\ word.\ \n\ @Usage\:\ scanIdentifier();\n\ @return\:\ A\ string\ that\ represents\ a\ word\ such\ as\ 'Rahul'\n
+comment11.params=
+comment11.target=java.lang.String\ scanOperand()
+comment11.text=\n\ This\ method\ returns\ a\ String\ that\ represents\ operands.\ \n\ When\ it\ is\ done\ adding\ the\ character,\ it\ eats\ it.\ \n\ @Usage\:\ scanOperand();\n\ @return\:\ A\ string\ that\ represents\ an\ operand\ like\ '%'.\n
+comment12.params=
+comment12.target=java.lang.String\ nextToken()
+comment12.text=\n\ Skips\ any\ leading\ white\ space\ and\ then\ examines\ the\ value\n\ of\ currentChar,\ calling\ the\ appropriate\ method\ to\ scan\ for\ \n\ the\ next\ token\ in\ the\ input\ stream.\ \n\ @return\ Returns\ a\ String\ representing\ the\ lexeme\ found.\ \n\ \ \ \ \ \ \ \ \ \ Returns\ the\ value\ \u201CEND\u201D\ if\ the\ input\ stream\ is\ at\n\ \ \ \ \ \ \ \ \ \ end-\ of-file\ when\ nextToken\ is\ called.\n\ @usage\ scanner.nextToken();\n
+comment13.params=args
+comment13.target=void\ main(java.lang.String[])
+comment13.text=\n\ Tester\ for\ the\ code\n\ @param\ args\ stack\n
+comment2.params=
+comment2.target=void\ getNextChar()
+comment2.text=\n\ Sets\ the\ instance\ field\ currentChar\ to\ the\ value\ read\ \n\ from\ the\ input\ stream\ using\ the\ \ read\ method.\ Typecasts\ \n\ the\ result\ of\ the\ "read"\ method\ to\ a\ Char.\ Gives\ a\ -1\ \n\ if\ end\ of\ file.\ Also,\ it\ catches\ IOExceptions.\n\ Usage\:\ getNextChar();\n
+comment3.params=expected
+comment3.target=void\ eat(char)
+comment3.text=\n\ Compares\ the\ value\ of\ the\ input\ parameter\ to\ currentChar\ and\ \n\ if\ they\ are\ the\ same,\ it\ advances\ the\ input\ stream\ one\ \n\ character\ by\ calling\ getNextChar().\ If\ the\ values\ differ,\n\ the\ method\ throws\ a\ ScanErrorException.\n\ @usage\:\ eat(currentChar);\n\ @param\ expected\ This\ represents\ the\ expected\ value\ of\ currentChar\n
+comment4.params=
+comment4.target=boolean\ hasNext()
+comment4.text=\n\ Checks\ if\ the\ eof\ boolean\ is\ true\ or\ false\n\ and\ reports\ the\ opposite\ of\ the\ valuee\n\ @return\ false\ if\ eof\ \=\=\ true\n\ \ \ \ \ \ \ \ \ \ true\ if\ eof\ \=\=\ false\n
+comment5.params=c
+comment5.target=boolean\ isDigit(char)
+comment5.text=\n\ Takes\ in\ a\ char\ and\ returns\ a\ boolean\ depending\ on\n\ whether\ or\ not\ the\ character\ is\ a\ digit.\ \n\ @Usage\:\ isDigit(currentChar);\n\ @param\ c\ the\ currentChar\ that\ the\ method\ tries\ to\ \n\ identify\ whether\ or\ not\ it\ is\ a\ digit\n\ @return\ true\ if\ param\ is\ a\ digit\n\ \ \ \ \ \ \ \ \ false\ if\ param\ is\ not\ a\ digit\n
+comment6.params=c
+comment6.target=boolean\ isLetter(char)
+comment6.text=\n\ Takes\ in\ a\ char\ and\ returns\ a\ boolean\ depending\ on\n\ whether\ or\ not\ the\ character\ is\ a\ letter.\ \n\ @Usage\:\ isLetter(currentChar);\n\ @param\ c\ the\ currentChar\ that\ the\ method\ tries\ to\ identify\n\ whether\ or\ not\ it\ is\ a\ letter\n\ @return\ true\ if\ param\ is\ a\ letter\n\ \ \ \ \ \ \ \ \ false\ if\ param\ is\ not\ a\ letter\n
+comment7.params=c
+comment7.target=boolean\ isWhiteSpace(char)
+comment7.text=\n\ Takes\ in\ a\ char\ and\ returns\ a\ boolean\ depending\ on\ whether\n\ or\ not\ the\ character\ is\ a\ white\ space.\ \n\ @Usage\:\ isWhiteSpace(currentChar);\n\ @param\ c\ the\ currentChar\ that\ the\ method\ tries\ to\ identify\ \n\ whether\ or\ not\ it\ is\ a\ white\ space\n\ @return\ true\ if\ param\ is\ a\ whiteSpace\n\ \ \ \ \ \ \ \ \ false\ if\ param\ is\ not\ a\ white\ Space\n
+comment8.params=c
+comment8.target=boolean\ isOperand(char)
+comment8.text=\n\ Takes\ in\ a\ char\ and\ returns\ a\ boolean\ depending\ on\ whether\ or\ not\n\ the\ character\ is\ an\ operand.\ \n\ @Usage\:\ isOperand(currentChar);\n\ @param\ c\ the\ currentChar\ that\ the\ method\ tries\ to\ identify\n\ whether\ or\ not\ it\ is\ an\ operand\n\ @return\ true\ if\ param\ is\ an\ operand\n\ \ \ \ \ \ \ \ \ false\ if\ param\ is\ not\ an\ operand\n
+comment9.params=
+comment9.target=java.lang.String\ scanNumber()
+comment9.text=\n\ This\ method\ returns\ a\ String\ that\ represents\ a\ number.\ \n\ It\ uses\ a\ while\ statement\ to\ continue\ adding\ numbers\ to\ the\ String.\n\ When\ it\ is\ done\ adding\ a\ character,\ it\ eats\ it.\ When\ it\ encounters\ a\ \n\ character\ that\ is\ not\ a\ number,\ it\ returns\ the\ number.\ \n\ @Usage\:\ scanNumber();\n\ @return\:\ A\ string\ that\ represents\ a\ number\ such\ as\ '10'\n
+numComments=14
