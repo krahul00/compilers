@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=param\ x\ y
+comment0.target=BinOp(java.lang.String,\ Expression,\ Expression)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ BinOp\n\ @param\ param\ string\ that\ describes\ the\ operator\n\ @param\ x\ expression\ to\ be\ evaluated\n\ @param\ y\ second\ expressino\ to\ be\ evaluated\n
+comment1.params=env
+comment1.target=int\ eval(environment.Environment)
+comment1.text=\n\ The\ evaluation\ method\ for\ a\ BinOp.\ Based\ off\ what\n\ the\ operator\ is,\ it\ returns\ the\ value\ of\ the\ evaluated\ \n\ expressions\n\ @param\ env\ Environment\ passed\ that\ allows\ the\ easy\ retrieval\n\ and\ setting\ of\ variables\n\ @return\ int\ value\ of\ the\ evaluated\ expression\n\ @Usage\ .eval(env);\n
+numComments=2

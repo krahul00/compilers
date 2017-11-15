@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=param
+comment0.target=Block(java.util.List)
+comment0.text=\n\ Constructor\ for\ the\ block.\n\ @param\ param\ list\ of\ statements\ that\ it\ takes\ in\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ thats\ present\ between\ the\ BEGIN/END\n
+comment1.params=env
+comment1.target=void\ exec(environment.Environment)
+comment1.text=\n\ Method\ for\ executing\ block\ statements.\ Essentially,\n\ it\ executes\ each\ statement\ one\ by\ itself.\n\ @param\ env\ Environment\ that\ will\ allow\ it\ to\ set\ or\ access\n\ \ \ \ \ \ \ \ \ \ values\n\ \ @Usage\ .exec(env);\n
+numComments=2

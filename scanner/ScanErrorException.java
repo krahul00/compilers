@@ -17,9 +17,10 @@ public class ScanErrorException extends Exception
     {
         super();
     }
+    
     /**
      * Constructor for ScanErrorObjects that includes a reason for the error
-     * @param reason
+     * @param reason reason
      */
     public ScanErrorException(String reason)
     {

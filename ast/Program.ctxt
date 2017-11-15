@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=param
+comment0.target=Program(Statement)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Program\n\ @param\ param\ statements\ of\ the\ program\n
+comment1.params=env
+comment1.target=void\ exec(environment.Environment)
+comment1.text=\n\ Executes\ the\ program\ by\ passing\ the\ environment\ to\n\ the\ statement\ and\ executing\ it\ there\n\ @param\ env\ passed\ environemtn\n
+numComments=2

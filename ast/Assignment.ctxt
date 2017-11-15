@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=param\ param1
+comment0.target=Assignment(java.lang.String,\ Expression)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Assignment\ \n\ @param\ param\ String\ that\ is\ the\ variable\ name\n\ @param\ param1\ Expression\ that\ is\ equal\ to\ the\ variable\n
+comment1.params=env
+comment1.target=void\ exec(environment.Environment)
+comment1.text=\n\ Executable\ method\ for\ the\ assignment\ class.\ All\ it\ does\n\ is\ set\ the\ variables\ in\ the\ environment.\n\ @param\ env\ Environment\ where\ the\ variables\ can\ be\ set\ and\ \n\ accessed\n\ \ @Usage\ .exec(env);\n
+numComments=2

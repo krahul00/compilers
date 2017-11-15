@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=stat\ cond
+comment0.target=While(Statement,\ Condition)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ If\n\ @param\ stat\ Statement\ that\ is\ the\ second\ part\ \n\ \ \ \ \ \ \ \ of\ the\ while\ loop\n\ @param\ cond\ Conditional\ that\ is\ checked\n
+comment1.params=env
+comment1.target=void\ exec(environment.Environment)
+comment1.text=\n\ Executable\ method\ for\ While\ loops.\ It\ just\ uses\n\ a\ simple\ while\ loop\ to\ continually\ execute\ it\n\ @param\ env\ Environment\ that\ holds\ the\ variables\n\ @Usage\ .exec(env);\n
+numComments=2

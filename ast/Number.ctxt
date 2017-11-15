@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=param
+comment0.target=Number(int)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Number\n\ @param\ param\ int\ number\ that\ has\ to\ be\ stored\ in\ this\ class\n
+comment1.params=env
+comment1.target=int\ eval(environment.Environment)
+comment1.text=\n\ Evaluatory\ method\ for\ Number.\ All\ it\ does\ it\n\ return\ it\n\ @return\ int\ that\ is\ the\ value\ of\ the\ number\n\ @param\ env\ Environment\ that\ holds\ all\ the\ values\n\ @Usage\ .eval(env);\n
+numComments=2

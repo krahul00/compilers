@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=env
+comment0.target=int\ eval(environment.Environment)
+comment0.text=\n\ Abstract\ method\ for\ evaluation\ that\ is\ passed\ down\n\ to\ its\ subclasses\n\ @return\ int\ value\ of\ the\ evaluated\ expression\n\ @param\ env\ Environment\ that\ holds\ all\ the\ values\n
+numComments=1

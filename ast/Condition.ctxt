@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=param1\ param2\ param3
+comment0.target=Condition(Expression,\ Expression,\ java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Condition\n\ It\ is\ based\ off\ the\ grammar\n\ @param\ param1\ expression\ that\ is\ the\ first\ part\ of\ the\ cond\n\ @param\ param2\ expression\ that\ is\ the\ second\ part\ of\ the\ cond\n\ @param\ param3\ String\ that\ holds\ the\ operator\n
+comment1.params=env
+comment1.target=boolean\ eval(environment.Environment)
+comment1.text=\n\ Evaluation\ of\ a\ conditional.\ Essentially\ it\ just\ checks\ the\ evaluation\n\ of\ each\ expression\ in\ real\ life,\ and\ then\ returns\ a\ boolean\n\ @param\ env\ environment\ that\ holds\ all\ values\ for\ variables\n\ @return\ true\ if\ the\ check\ returns\ true\n\ \ \ \ \ \ \ \ \ \ false\ if\ the\ check\ returns\ false\n\ \ @Usage\ .eval(env);\n
+numComments=2

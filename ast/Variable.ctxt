@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=param
+comment0.target=Variable(java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Variable\n\ @param\ param\ string\ that\ is\ the\ name\ of\ the\ variable\n
+comment1.params=env
+comment1.target=int\ eval(environment.Environment)
+comment1.text=\n\ Evaluatory\ method\ for\ variables.\ It\ just\ gets\ the\ variable\n\ from\ the\ environment\n\ @param\ env\ Environment\ that\ holds\ all\ the\ variables\ and\ its\ values\n\ @return\ int\ value\ of\ the\ variable\n\ @Usage\ .eval(env);\n
+numComments=2

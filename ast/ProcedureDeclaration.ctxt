@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=param\ param1\ listofparams
+comment0.target=ProcedureDeclaration(java.lang.String,\ Statement,\ java.util.List)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ ProcedureDeclaration\n\ @param\ param\ name\ of\ procedure\n\ @param\ param1\ the\ Statement\ with\ the\ ProcedureDeclaration\n\ @param\ listofparams\ the\ arguments\ of\ the\ procedure\ declaration\n
+comment1.params=env
+comment1.target=void\ exec(environment.Environment)
+comment1.text=\n\ Sets\ the\ preocedure\ in\ the\ environment\n\ @param\ env\ passed\ environment\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ Simple\ accessor\ that\ gets\ name\ of\ procedure\n\ @return\ name\ of\ procedure\n
+comment3.params=
+comment3.target=Statement\ getStatement()
+comment3.text=\n\ Simple\ accessor\ that\ gets\ the\ procedure's\ statements\n\ @return\ statement\ of\ procedure\ dec.\n
+comment4.params=
+comment4.target=java.util.List\ getParams()
+comment4.text=\n\ Simple\ accessor\ that\ gets\ the\ procedure's\ arguments\n\ @return\ arguments\ of\ procedure\ dec.\n
+numComments=5

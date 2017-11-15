@@ -104,7 +104,7 @@ public class Scanner
      */
     public boolean hasNext()
     {
-        return !(eof);
+        return !eof;
     }
 
     /**
@@ -160,7 +160,7 @@ public class Scanner
      */
     public static boolean isOperand (char c)
     {
-        if (("!+-<>.=%()*;:").indexOf(c) != -1) //easy way 
+        if (("!+-<>,.=%()*;:").indexOf(c) != -1) //easy way 
         //of checking all operands
         {       
             return true;            
@@ -224,14 +224,27 @@ public class Scanner
         String operand = "";
         if (isOperand(currentChar)) 
         {  
-            if ((currentChar == ':') || (currentChar == '<'))
+            if ((currentChar == ':') || 
+                (currentChar == '<') || (currentChar == '>'))
             {
                 operand += currentChar;
                 eat(currentChar);
+                if (operand.equals("<"))
+                {
+                    if (currentChar == '>')
+                    {
+                        operand += currentChar;
+                        eat(currentChar);                        
+                    }
+                }
                 if (currentChar == '=')
                 {
                     operand += currentChar;
                     eat(currentChar); 
+                }
+                else if (operand.equals(":"))
+                {
+                    throw new ScanErrorException("Found : without =");
                 }
                 return operand;
             }

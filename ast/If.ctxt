@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=stat\ cond
+comment0.target=If(Statement,\ Condition)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ If\n\ @param\ stat\ expression\ after\ the\ "then"\n\ @param\ cond\ Thats\ what\ the\ if\ statement\ checks\n
+comment1.params=env
+comment1.target=void\ exec(environment.Environment)
+comment1.text=\n\ Executable\ method\ for\ if\ classes.\n\ It\ is\ just\ a\ simple\ if\ statement\n\ @param\ env\ Environment\ that\ holds\ all\ variables\n\ @Usage\ .exec(env);\n
+numComments=2
